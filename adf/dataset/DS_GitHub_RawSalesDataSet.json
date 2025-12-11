@@ -1,0 +1,22 @@
+{
+	"name": "DS_GitHub_RawSalesDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_GitHub_RawSalesData",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "sayaliuk/azure-data-engineering-project/refs/heads/main/data/raw/sales_data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
