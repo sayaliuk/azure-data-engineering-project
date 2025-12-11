@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "DF_TransformSalesData",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
