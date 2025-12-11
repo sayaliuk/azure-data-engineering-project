@@ -1,0 +1,9 @@
+{
+	"name": "adf-adventure-data-suk26",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8cc5fa7f-eedf-4c48-b667-c0be1f76a7fd",
+		"tenantId": "a85c98a4-0663-4273-a068-d2229ab382a5"
+	}
+}
